@@ -1,0 +1,96 @@
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#define MAX_LENGTH 2048
+
+void get_addr_info(const char* address, const char* port, struct addrinfo** res){
+	int status;
+	struct addrinfo hints, p;
+	memset(&hints,0,sizeof(hints));
+	hints.ai_family=AF_INET;
+	hints.ai_socktype=SOCK_STREAM;
+	hints.ai_protocol=IPPROTO_TCP;
+	
+	status = getaddrinfo(address, port, &hints, res);
+	if( status != 0){ fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(status));
+		exit(EXIT_FAILURE);
+	}
+	printf("get_addr_info success: %d",status);
+}
+int do_socket(int domain, int type, int protocol){
+	int sockfd;
+	int yes = 1;
+	sockfd=socket(domain,type,protocol);
+	if(sockfd == -1){ 
+		perror("socket");
+		exit(EXIT_FAILURE);
+		}
+	if(setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int)) == -1)
+	{error("ERROR setting socket options");}
+	printf("socket success %d",sockfd);
+}
+void do_connect(int sockfd, const struct sockaddr*addr, socklen_t addrlen){
+int res = connect(sockfd, addr, addrlen);
+if(res !=0) {
+	printf("error connect");	
+}
+printf("connect success %d",res);
+}
+
+ssize_t readline(int fd, char *str, size_t maxlen){
+	memset(str,0,maxlen);
+	fgets(str,maxlen,stdin);
+	int len_str=strlen(str);
+	int i=0 ,w;
+	while (i!= len_str){
+		w= write(fd, str, len_str);
+		i +=w;
+	}
+}
+
+
+int main(int argc,char** argv)
+{
+    if (argc != 3)
+    {
+        fprintf(stderr,"usage: RE216_CLIENT hostname port\n");
+        return 1;
+    }
+	
+
+struct addrinfo *res;
+res=malloc(sizeof(struct addrinfo));
+printf("bonjou1");
+memset(&res,0,sizeof(struct addrinfo));
+printf("bonjou2");
+char* address= argv[1];
+char* port = argv[2];
+printf("bonjou");
+//get address info from the server
+get_addr_info(address, port, &res);
+
+//get the socket
+int s;
+s = do_socket(res->ai_family, res->ai_socktype, res->ai_protocol);
+
+//connect to remote socket
+do_connect(s, res->ai_addr, res->ai_addrlen);
+
+
+//get user input
+char* message;
+readline(s,message,MAX_LENGTH);
+
+//send message to the server
+//handle_client_message()
+
+
+    return 0;
+
+
+}

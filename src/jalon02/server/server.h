@@ -8,43 +8,18 @@
 #ifndef SERVER_H_QSGPNSGPOQNSPGOSNDFG
 #define SERVER_H_QSGPNSGPOQNSPGOSNDFG
 
+#include "contrib.h"
 
-/**
- * handle the event when the server socket receives a new connection
- * @return the new client socket fd
- */
-int handle_server_socket_event(const int server_socket_fd);
-
-/**
- * handle the event when a client write something to us
- */
-void handle_client_socket_event(int client_socket_fd);
-
-/**
- * parse a client input and react accordingly
- */
-void parse_client_input(const char buffer[256], const int client_socket_fd);
-
-/**
- * Send a message to all users, except on the fd for the sender.
- */
-void send_broadcast_by_user_name(const char buffer[256], const char* uname_src);
-void send_broadcast_by_fd(const char buffer[256], const int fd);
-
-/**
- * Send a message to a user by username
- */
-void send_unicast(const char buffer[256], const char *uname,const char* uname_src);
-
-/**
- * Send a message to users by their usernames
- */
-void send_multicast(const char buffer[256], const char **unames,const char* uname_src);
-
-/**
- * main function that understands the type of packets
- */
-void process_client_request(const char buffer[256], const int client_socket_fd);
+void quit(int sock_client_i, int channel_length,Dlist * channel, Dlist * sock_list);
+int  nick(char * buffer,int list_lengt,Dlist *sock_list,int sock_client_i,int notlogon);
+void whois(char *buffer, int list_length, Dlist *sock_list,int sock_client_i);
+void salon(char *buffer,int channel_length,Dlist* channel,int sock_client_i);
+void leave(char *buffer,Dlist *channel,int sock_client_i,Dlist *sock_list);
+void join(char *buffer,Dlist *channel,int sock_client_i,Dlist *sock_list);
+void channel_function(char *buffer,Dlist *channel,int sock_client_i,char nickname[NICK_SIZE]);
+void unicast(char *buffer,int list_length,Dlist *sock_list,int sock_client_i,char nickname[NICK_SIZE]);
+void broadcast(char *buffer,int list_length,Dlist *sock_list,char nickname[NICK_SIZE],int sock_client_i);
+void list_channel(int list_length,Dlist *channel,int sock_client_i);
 
 
 #endif //SERVER_H_QSGPNSGPOQNSPGOSNDFG

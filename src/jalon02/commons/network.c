@@ -19,8 +19,6 @@
 #include <stdio.h>
 #include <regex.h>
 #include <errno.h>
-#include "user.h"
-#include "callbacks.h"
 #include "colors.h"
 #include "network.h"
 #define MSG_SIZE 256

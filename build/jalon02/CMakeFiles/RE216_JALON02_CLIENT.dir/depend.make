@@ -14,6 +14,4 @@ jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/contrib.c.o: /home/jv/Docume
 jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/commons/colors.h
 jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.c
 jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.h
-jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.h
-jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/user.h
 

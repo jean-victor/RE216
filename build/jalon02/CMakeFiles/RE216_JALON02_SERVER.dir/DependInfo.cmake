@@ -6,10 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/jv/Documents/proj_reseaux/src/jalon02/commons/contrib.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o"
   "/home/jv/Documents/proj_reseaux/src/jalon02/commons/network.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o"
-  "/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o"
   "/home/jv/Documents/proj_reseaux/src/jalon02/server/server_app.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o"
   "/home/jv/Documents/proj_reseaux/src/jalon02/server/server_lib.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o"
-  "/home/jv/Documents/proj_reseaux/src/jalon02/server/user.c" "/home/jv/Documents/proj_reseaux/build/jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

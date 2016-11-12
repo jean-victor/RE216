@@ -147,11 +147,6 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] RE216_JALON02_SERVER/Source Files/callbacks.c</name>
-			<type>1</type>
-			<location>/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c</location>
-		</link>
-		<link>
 			<name>[Targets]/[exe] RE216_JALON02_SERVER/Source Files/server_app.c</name>
 			<type>1</type>
 			<location>/home/jv/Documents/proj_reseaux/src/jalon02/server/server_app.c</location>
@@ -160,11 +155,6 @@
 			<name>[Targets]/[exe] RE216_JALON02_SERVER/Source Files/server_lib.c</name>
 			<type>1</type>
 			<location>/home/jv/Documents/proj_reseaux/src/jalon02/server/server_lib.c</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] RE216_JALON02_SERVER/Source Files/user.c</name>
-			<type>1</type>
-			<location>/home/jv/Documents/proj_reseaux/src/jalon02/server/user.c</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] RE216_JALON02_SERVER/Source Files/network.c</name>

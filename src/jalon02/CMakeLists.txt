@@ -28,10 +28,8 @@ add_executable(RE216_JALON02_CLIENT ${SRC_CLIENT} ${SRC_COMMONS})
 
 #add here source files you need to compile and link to the server app
 SET(SRC_SERVER
-server/callbacks.c
 server/server_app.c
 server/server_lib.c
-server/user.c
 )
 
 

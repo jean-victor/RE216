@@ -57,33 +57,9 @@ include jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/progress.make
 # Include the compile flags for this target's objects.
 include jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
 
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.i"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c > CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.i
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.s"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c -o CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.s
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.requires:
-
-.PHONY : jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.requires
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.provides: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.requires
-	$(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.provides.build
-.PHONY : jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.provides
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.provides.build: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o
-
-
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/server_app.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o"
 	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/server/server_app.c
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.i: cmake_force
@@ -107,7 +83,7 @@ jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o.provides.build
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/server_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o"
 	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/server/server_lib.c
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.i: cmake_force
@@ -129,33 +105,9 @@ jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o.provides: jalo
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o.provides.build: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o
 
 
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/server/user.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/server/user.c
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.i"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jv/Documents/proj_reseaux/src/jalon02/server/user.c > CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.i
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.s"
-	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jv/Documents/proj_reseaux/src/jalon02/server/user.c -o CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.s
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.requires:
-
-.PHONY : jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.requires
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.provides: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.requires
-	$(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.provides.build
-.PHONY : jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.provides
-
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.provides.build: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o
-
-
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o"
 	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.c
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.i: cmake_force
@@ -179,7 +131,7 @@ jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o.provides.build: 
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/flags.make
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o: /home/jv/Documents/proj_reseaux/src/jalon02/commons/contrib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o"
 	cd /home/jv/Documents/proj_reseaux/build/jalon02 && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o   -c /home/jv/Documents/proj_reseaux/src/jalon02/commons/contrib.c
 
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.i: cmake_force
@@ -203,25 +155,21 @@ jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o.provides.build: 
 
 # Object files for target RE216_JALON02_SERVER
 RE216_JALON02_SERVER_OBJECTS = \
-"CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o" \
 "CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o" \
 "CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o" \
-"CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o" \
 "CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o" \
 "CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o"
 
 # External object files for target RE216_JALON02_SERVER
 RE216_JALON02_SERVER_EXTERNAL_OBJECTS =
 
-jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o
-jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make
 jalon02/RE216_JALON02_SERVER: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable RE216_JALON02_SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jv/Documents/proj_reseaux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable RE216_JALON02_SERVER"
 	cd /home/jv/Documents/proj_reseaux/build/jalon02 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RE216_JALON02_SERVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,10 +177,8 @@ jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build: jalon02/RE216_JALON02_SERVER
 
 .PHONY : jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build
 
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o.requires
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_app.c.o.requires
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.o.requires
-jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o.requires
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/network.c.o.requires
 jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/requires: jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/commons/contrib.c.o.requires
 

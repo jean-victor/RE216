@@ -579,6 +579,31 @@ int is_in_channel(Dlist *p_list,int position ,int sockfd){
 	
 	return 0;
 }
+int is_in_channel_data(Dlist *p_list,int data ,int sockfd){
+	if (p_list != NULL)
+    {
+		int j=1;
+        struct node *p_temp = p_list->p_head;
+        while (p_temp != NULL)
+        {
+			if(p_temp->data==data){
+				int i;
+				for (i=1;i<=MAX_CLIENT;i++){
+					if(p_temp->clients[i]==sockfd){
+						return 1;
+					}	
+				}
+			
+		}
+		
+		p_temp = p_temp->p_next;
+		}
+			
+            
+     }
+	
+	return 0;
+}
 int is_name_use(Dlist *p_list,int position ,char name [NICK_SIZE]){
 	if (p_list != NULL)
     {

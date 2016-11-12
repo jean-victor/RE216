@@ -254,33 +254,6 @@ commons/network.c.s:
 	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/build.make jalon02/CMakeFiles/RE216_JALON02_CLIENT.dir/commons/network.c.s
 .PHONY : commons/network.c.s
 
-server/callbacks.o: server/callbacks.c.o
-
-.PHONY : server/callbacks.o
-
-# target to build an object file
-server/callbacks.c.o:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.o
-.PHONY : server/callbacks.c.o
-
-server/callbacks.i: server/callbacks.c.i
-
-.PHONY : server/callbacks.i
-
-# target to preprocess a source file
-server/callbacks.c.i:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.i
-.PHONY : server/callbacks.c.i
-
-server/callbacks.s: server/callbacks.c.s
-
-.PHONY : server/callbacks.s
-
-# target to generate assembly for a file
-server/callbacks.c.s:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/callbacks.c.s
-.PHONY : server/callbacks.c.s
-
 server/server_app.o: server/server_app.c.o
 
 .PHONY : server/server_app.o
@@ -335,33 +308,6 @@ server/server_lib.c.s:
 	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/server_lib.c.s
 .PHONY : server/server_lib.c.s
 
-server/user.o: server/user.c.o
-
-.PHONY : server/user.o
-
-# target to build an object file
-server/user.c.o:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.o
-.PHONY : server/user.c.o
-
-server/user.i: server/user.c.i
-
-.PHONY : server/user.i
-
-# target to preprocess a source file
-server/user.c.i:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.i
-.PHONY : server/user.c.i
-
-server/user.s: server/user.c.s
-
-.PHONY : server/user.s
-
-# target to generate assembly for a file
-server/user.c.s:
-	cd /home/jv/Documents/proj_reseaux/build && $(MAKE) -f jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/build.make jalon02/CMakeFiles/RE216_JALON02_SERVER.dir/server/user.c.s
-.PHONY : server/user.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -384,18 +330,12 @@ help:
 	@echo "... commons/network.o"
 	@echo "... commons/network.i"
 	@echo "... commons/network.s"
-	@echo "... server/callbacks.o"
-	@echo "... server/callbacks.i"
-	@echo "... server/callbacks.s"
 	@echo "... server/server_app.o"
 	@echo "... server/server_app.i"
 	@echo "... server/server_app.s"
 	@echo "... server/server_lib.o"
 	@echo "... server/server_lib.i"
 	@echo "... server/server_lib.s"
-	@echo "... server/user.o"
-	@echo "... server/user.i"
-	@echo "... server/user.s"
 .PHONY : help
 
 

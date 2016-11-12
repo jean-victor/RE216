@@ -105,10 +105,6 @@ regex.h
 -
 errno.h
 -
-user.h
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/user.h
-callbacks.h
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/callbacks.h
 colors.h
 /home/jv/Documents/proj_reseaux/src/jalon02/commons/colors.h
 network.h
@@ -122,13 +118,5 @@ sys/types.h
 netinet/in.h
 -
 stdbool.h
--
-
-/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.h
-
-/home/jv/Documents/proj_reseaux/src/jalon02/server/user.h
-stddef.h
--
-netinet/in.h
 -
 

@@ -40,5 +40,6 @@ int channel_is_empty(Dlist *p_list,char nickname[20]);
 int get_channel_ID(Dlist *p_list,char nickname[20]);
 int *get_users_in_channel(Dlist *p_list,int IDchannel);
 int is_in_channel(Dlist *p_list,int position ,int sockfd);
+int is_in_channel_data(Dlist *p_list,int data ,int sockfd);
 int is_name_use(Dlist *p_list,int position ,char name [NICK_SIZE]);
 #endif /* CONTRIB_H_ */

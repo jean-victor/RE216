@@ -30,8 +30,6 @@ unistd.h
 time.h
 -
 
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/dll.h
-
 /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.c
 stdio.h
 -
@@ -61,10 +59,6 @@ regex.h
 -
 errno.h
 -
-user.h
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/user.h
-callbacks.h
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/callbacks.h
 colors.h
 /home/jv/Documents/proj_reseaux/src/jalon02/commons/colors.h
 network.h
@@ -80,13 +74,9 @@ netinet/in.h
 stdbool.h
 -
 
-/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.c
-callbacks.h
-/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.h
-
-/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.h
-
 /home/jv/Documents/proj_reseaux/src/jalon02/server/server.h
+contrib.h
+/home/jv/Documents/proj_reseaux/src/jalon02/server/contrib.h
 
 /home/jv/Documents/proj_reseaux/src/jalon02/server/server_app.c
 resolv.h
@@ -101,8 +91,8 @@ stdlib.h
 /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.h
 server.h
 /home/jv/Documents/proj_reseaux/src/jalon02/server/server.h
-../commons/dll.h
-/home/jv/Documents/proj_reseaux/src/jalon02/commons/dll.h
+contrib.h
+/home/jv/Documents/proj_reseaux/src/jalon02/server/contrib.h
 errno.h
 -
 sys/socket.h
@@ -129,24 +119,14 @@ string.h
 -
 stdbool.h
 -
-user.h
-/home/jv/Documents/proj_reseaux/src/jalon02/server/user.h
 ../commons/network.h
 /home/jv/Documents/proj_reseaux/src/jalon02/commons/network.h
 server.h
 /home/jv/Documents/proj_reseaux/src/jalon02/server/server.h
-callbacks.h
-/home/jv/Documents/proj_reseaux/src/jalon02/server/callbacks.h
 stdio.h
 -
-
-/home/jv/Documents/proj_reseaux/src/jalon02/server/user.c
-user.h
-/home/jv/Documents/proj_reseaux/src/jalon02/server/user.h
-
-/home/jv/Documents/proj_reseaux/src/jalon02/server/user.h
-stddef.h
--
-netinet/in.h
--
+../commons/network.h
+/home/jv/Documents/proj_reseaux/src/jalon02/commons/network.h
+contrib.h
+/home/jv/Documents/proj_reseaux/src/jalon02/server/contrib.h
 
